@@ -1,0 +1,42 @@
+/**************************************************
+
+ OpenSndDlg1.rc
+
+ Dialog template for TOpenSndDlg class
+
+**************************************************/
+
+#include "LsOpenSndDlg_Const.pas"
+
+SNDDLGTPL DIALOG 0, 0, 204, 95
+STYLE 0x404L | WS_CHILD | WS_VISIBLE | WS_CLIPSIBLINGS
+FONT 8, "MS Sans Serif"
+LANGUAGE LANG_NEUTRAL , SUBLANG_NEUTRAL
+{
+ LTEXT "", 1119, 0, 0, 204, 76, SS_LEFT | WS_CHILD | NOT WS_VISIBLE | WS_GROUP
+}
+
+STRINGTABLE
+{
+ SWavMask,"Звукозаписи (*.wav)|*.wav|Все файлы (*.*)|*.*"
+ STest,"Проба:"
+ SPlayHint,"Воспроизвести выбранный звуковой файл"
+ SStopHint,"Остановить воспроизведение"
+ SDuration,"Длительность: %f10.3 сек."
+ SChannels,"Каналы: %d (%s)"
+ SSampleRate,"Частота: %s Гц"
+ SBytesPerSecond,"Байт в секунду: %d"
+ SBytesPerSample,"Байт в семпле: %d"
+ SBitsPerSample,"Бит в семпле: %d"
+ SDataBytes,"Размер данных: %d байт"
+ SFileSize,"Размер файл: %s байт"
+ SMono,"Моно"
+ SStereo,"Стерео"
+ SWavInfo,"Формат: "
+ SErrNotAWav,"*нет данных*"
+ SBytes,"байт"
+ SBits,"бит"
+ SSecs,"сек."
+ SHz,"Гц"
+}
+
