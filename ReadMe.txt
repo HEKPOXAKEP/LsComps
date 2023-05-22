@@ -3,7 +3,7 @@ LAGODROM Delphi Components library
 Copyright 2006-2023 LAGODROM Solutions Ltd.
 All rights reserved.
 
-Components library for Borland Delphi 7. 
+Components library for Borland Delphi 7.
 
 Includes:
   LsGroupBox - advanced TGroupBox component with colored rounded borders and some other funny things;
