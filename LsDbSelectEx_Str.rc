@@ -1,0 +1,37 @@
+/**************************************************
+
+  LsDbSelectEx_Src.rc
+
+  Dialog template for TLsDbSelectEx class
+
+**************************************************/
+
+#include "LsDbSelectEx_Const.pas"
+
+STRINGTABLE
+{
+  SrgrpProtocol0,"Локальный"
+  SrgrpProtocol1,"Сетевой"
+  SrgrpProtocol_Hint,"Тип соединения"
+
+  SlblServer,"Сервер"
+  ScboxServer_Hint,"Сервер баз данных"
+
+  SbtnServer_Hint,"Выбор сервера из списка доступных серверов"
+
+  SlblPath,"Имя БД"
+  ScboxPath_Hint,"Путь и имя БД"
+
+  SbtnPath_Hint,"Выбор файла базы данных"
+
+  SlblUser,"Логин"
+  SedUser_Hint,"Имя пользователя БД"
+
+  SlblPassword,"Пароль"
+  SedPassword_Hint,"Пароль пользователя БД"
+
+  SlblDialect,"Диалект"
+  ScboxDialect_Hint,"SQL-Диалект"
+
+  SbtnCancel,"Отмена"
+}
